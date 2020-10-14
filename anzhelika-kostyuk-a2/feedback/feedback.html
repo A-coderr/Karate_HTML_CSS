@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Karate Galaxy</title>
+    <link rel="shortcut icon" href="../images/karate.png">
+	<link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/feedback.css">
+	<link rel="stylesheet" href="../styles/main.css">
+
+</head>
+
+<body>
+
+  <header>
+  	<img src="../images/karate.png" alt="Pumpkin" width="95">
+   	<h2>Karate Galaxy</h2>
+   	<h3>A black belt is a white belt that never <br> gave up!</h3>
+  </header>
+  <nav id="nav_menu">
+  	<ul>
+    	<li><a href="../index.html">Home</a></li>
+    	<li><a href="ProductList/productlist.html">Products</a>
+		    <ul>   			
+    			<li><a href="decorating/table.html">Men</a></li>
+    			<li><a href="decorating/treats.html">Women</a>
+				    <ul>
+				    <li><a href="#">Uniform</a></li>
+				    <li><a href="#">Footwear</a></li>
+				    <li><a href="#">Guard</a></li>
+				    <li><a href="#">Accessories</a></li>
+				    
+					</ul>
+				</li>
+    		</ul>
+		</li>
+    	<li><a href="../classes/table.html" >Classes</a></li>
+    	<li><a href="../team/team.html">Team</a></li>
+    	<li><a href="feedback/feedback.html" class="current">Feedback</a></li>
+	</ul>
+  </nav>
+  <main>
+	<aside id="sidebarA">
+		<nav id="nav_list">
+   		<ul>
+   			<li><a href="../index.html"><img src = "../thumbnail/home.jpg" width="110" height="75"></a></li>
+   			<li><a href="../products/props.html"><img src = "../thumbnail/products.jpg" width="110" height="75"></a></li>
+   			<li><a href="../classes/table.html"><img src = "../thumbnail/class.jpg" width="110" height="75"></a></a></li>
+   			<li><a href="../team/team.html"><img src = "../thumbnail/team.jpg" width="110" height="75"></a></a></li>
+   			<li><a href="feedback/feedback.html"><img src = "../thumbnail/email.jpg" width="110" height="75"></a></a></li>
+		</ul>
+		</nav>
+	</aside>
+	<section>
+	<form>
+	  <legend>Feedback</legend>
+    	<label for="firstname">First Name:</label>
+		<input type="text" name="firstname" autofocus required><br>
+        <label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" required><br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" required><br>
+		<label for="country">Country:</label>
+		<select name="country">
+		       <optgroup label="North America">
+		             <option value="canada">Canada</option>
+		             <option value="mexico">Mexico</option>
+		             <option value="us">U.S.</option>
+		       </optgroup>
+		       <optgroup label="Europe">
+		             <option value="france">France</option>
+		             <option value="germany">Germany</option>
+		             <option value="italy">Italy</option>
+		             <option value="spain">Spain</option>
+		             <option value="ukraine">Ukraine</option>
+		             <option value="uk">United Kingdom</option>
+		       </optgroup>
+		</select><br>
+		
+		<label for="interests">Your interests in karate:</label>
+		<select name="interests" multiple>
+		       <option value="Improve Health">Improve Health</option>
+		       <option value="Mental Benefits">Mental Benefits</option>
+		       <option value="Physical Activity">Physical Activity</option>
+		       <option value="Better Mood">Better Mood</option>
+		       <option value="Teaches Great Morals and Values">Teaches Great Morals and Values</option>
+		</select>
+		
+		<p>Comments:</p><br>
+		<textarea name="comments" rows="7" cols="50" 
+		          placeholder="If you have any comments, please enter them here."></textarea><br>
+		<input onclick="alert('The form has been submitted')" type="submit" name="submit" value="Submit">
+		<input type="reset" name="resetform" value="Reset">
+	</form>
+	</section>
+	<aside  id="sidebarB">
+		 <form>
+		       <legend>This Website is:</legend><br>
+			   <input type="checkbox" name="fun" id="fun" value="fun to visit">
+			   <label for="fun">Fun to visit</label><br>
+		       <input type="checkbox" name="well" id="well" value="well designed">
+			   <label for="well">Well designed</label><br>
+			   <input type="checkbox" name="uses" id="uses" value="uses good colours">
+			   <label for="uses">Uses good colours</label><br>
+			   
+			   <br>
+			   <br>
+			   <legend>Will you Visit this Site Again?</legend><br>
+			   <input type="radio" name="visit" id="yes" value="yes">
+			   <label for="yes">Yes</label>
+			   <input type="radio" name="visit" id="no" value="no">
+			   <label for="no">No</label><br>
+		 </form>
+        		   
+    </aside> 
+  </main>
+
+  <footer>
+	<p>&copy; Anzhelika Kostyuk</p>
+  </footer>
+</body>
+</html>

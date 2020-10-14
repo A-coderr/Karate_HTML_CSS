@@ -1,0 +1,158 @@
+html {
+	background-image: url("../images/wal.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 900px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid white;
+	box-shadow: 0 9px 18px 9px gray;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header { 
+    background-color:black;
+    padding: 15px;
+} 
+header img { 
+	float: left; 
+	padding-right: 35px;  
+	padding-left: 20px;  
+} 
+header h2 {
+	color: white;
+	font-size: 250%;
+}
+header h3 {
+	margin-top: 8px;
+	color: white;
+	font-size: 125%;
+	padding-bottom: 15px;
+}
+
+/* Navigation menu */
+#nav_menu {
+	border-top: 3px solid white;
+	clear: left;
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+}
+#nav_menu ul ul li ul {
+	left: 100%;
+	position: absolute;
+	top: 0;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 180px;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+#nav_menu ul li a.current {
+	color: orange;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: gray;
+}
+
+/* Sidebar */
+#sidebarA {
+	background-color:black;
+	margin-top: 3px;
+	float: left; 
+	width: 160px;
+	padding: 20px 0; 
+}
+#sidebarA nav ul p{
+	color: white;
+	text-align: center;
+}
+#nav_list ul { 
+	list-style: none;
+	padding-left: 1.5em;
+}
+#nav_list ul li { 
+
+	width: 110px;
+	height: 75px;
+	margin-bottom: 1.5em;
+	border: 2px solid white; 
+}
+#nav_list ul li:hover { 
+transform: scale(1.2);
+}
+
+
+/* Section */
+section {
+	background-color:white;
+	width: 500px;
+	float: left;
+	padding: 20px 40px 20px 20px;	
+}
+
+
+/* SidebarB */
+#sidebarB {
+	background-color:black;
+	margin-top: 3px;
+	float:right;
+	width: 180px;
+	padding: 20px 0; 
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 125%;
+}
+aside p {
+	margin: 7px;
+}
+/* Footer */
+footer { 
+	clear: both;
+	border-top: 2px solid black;
+	padding: 15px;
+    background-color: black;
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+	color: white;
+}

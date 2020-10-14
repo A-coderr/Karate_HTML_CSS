@@ -1,0 +1,20 @@
+
+/* Section */
+
+section table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: .2em;
+}
+section table caption{
+	padding-bottom: 1em;
+}
+section table th, td {
+	padding: .5em;
+	text-align: left;
+	border: 1px solid black;
+	font-size: 70%;
+}
+section table thead{
+	background-color: orange;
+}
