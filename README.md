@@ -1,4 +1,5 @@
 # Karate Galaxy
+![Karate Galaxy](images/KarateGalaxy_Main.png)
 ## 🌟 Overview
 
 Karate Galaxy is a simple yet meaningful website built using HTML and CSS as part of my college assignment. While it started as a basic project, it holds sentimental value as it marks the beginning of my web development journey. This website serves as a foundation for learning web design principles and structuring content effectively.
